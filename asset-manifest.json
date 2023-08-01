@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Flavour_Spices/static/css/main.afa90499.css",
+    "main.js": "/Flavour_Spices/static/js/main.2e18a509.js",
+    "static/js/787.26da9b02.chunk.js": "/Flavour_Spices/static/js/787.26da9b02.chunk.js",
+    "static/media/carda-fotor-bg-remover-20230731113630.png": "/Flavour_Spices/static/media/carda-fotor-bg-remover-20230731113630.6c84708edb90d445bc0a.png",
+    "static/media/spicy-fotor-bg-remover-20230729102142 (1).png": "/Flavour_Spices/static/media/spicy-fotor-bg-remover-20230729102142 (1).031f069b8a83e6c63b35.png",
+    "static/media/healthy-spices-collection-colorful.jpg": "/Flavour_Spices/static/media/healthy-spices-collection-colorful.fb98f49a0e89716bf059.jpg",
+    "static/media/blackpepper-fotor-bg-remover-20230731114418.png": "/Flavour_Spices/static/media/blackpepper-fotor-bg-remover-20230731114418.7bf4e64eec4cc56ab5d6.png",
+    "static/media/Ginger-Powder-fotor-bg-remover-20230731113947.png": "/Flavour_Spices/static/media/Ginger-Powder-fotor-bg-remover-20230731113947.248e50245310a37e7b9e.png",
+    "static/media/logos.png": "/Flavour_Spices/static/media/logos.1316ef50d84b10ee5041.png",
+    "static/media/DeliveryImg.png": "/Flavour_Spices/static/media/DeliveryImg.0fbebbdbfc53d67bdd8f.png",
+    "index.html": "/Flavour_Spices/index.html",
+    "main.afa90499.css.map": "/Flavour_Spices/static/css/main.afa90499.css.map",
+    "main.2e18a509.js.map": "/Flavour_Spices/static/js/main.2e18a509.js.map",
+    "787.26da9b02.chunk.js.map": "/Flavour_Spices/static/js/787.26da9b02.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.afa90499.css",
+    "static/js/main.2e18a509.js"
+  ]
+}
