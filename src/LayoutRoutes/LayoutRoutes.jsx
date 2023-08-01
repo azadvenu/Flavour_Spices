@@ -15,6 +15,7 @@ function LayoutRoutes() {
     <Header/>
     <Routes>
         <Route path='/' element={<Home/>}/>
+        <Route path='/Flavour_Spices' element={<Home/>}/>
         <Route path='/signin' element={<Signin/>}/>
         <Route path='/register' element={<Register/>}/>
         <Route path='/dishes' element={<Dishes/>}/>
