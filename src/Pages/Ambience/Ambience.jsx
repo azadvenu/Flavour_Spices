@@ -1,7 +1,7 @@
 import React from 'react';
 import {styled, Typography} from "@mui/material";
 import {Box, Container} from "@mui/system";
-import houseCard from "../../assets/ambience.jpg";
+import houseCard from "../../assets/healthy-spices-collection-colorful.jpg";
 
 const Ambience=()=>{
     
@@ -55,7 +55,7 @@ const Ambience=()=>{
     }));
 
     const Divider=styled("div")(({theme})=>({
-        width:"13%",
+        width:"23%",
         height:"5px",
         backgroundColor:"#000339",
         [theme.breakpoints.down("md")]:{
@@ -80,22 +80,22 @@ const Ambience=()=>{
                         </Typography>
 
                         <Typography sx={{fontSize:"16px",color:"#5A6473",lineHeight:"27px",}}>
-                           Discover the epitome of culinary excellence at Savoria, where every visit is an enchanting rendezvous with the art of dining.
+                        "Whether I am cooking a continental dish or a French recipe or occasionally an Indian recipe, I resort to the freshest spices I can get and I trust Flavour Spices to deliver spices to me directly from the farmlands of Kerala. Nothing is more fresh, tangy and tasty"-Adele Dunlap,UAE.
                         </Typography>
                 </Box>
             </CustomBox>
 
             <TextFlexbox>
                  <Box sx={{display:"flex",flexDirection:"column",alignItems:"center",}}>
-                    <LargeText>250+</LargeText>
-                    <SmallText>Dishes</SmallText>
+                    <LargeText>25+</LargeText>
+                    <SmallText>Spices</SmallText>
                  </Box>
                  <Box sx={{display:"flex",flexDirection:"column",alignItems:"center",}}>
-                    <LargeText>300+</LargeText>
+                    <LargeText>30+</LargeText>
                     <SmallText>Trusted Clients</SmallText>
                  </Box>
                  <Box sx={{display:"flex",flexDirection:"column",alignItems:"center",}}>
-                    <LargeText>350+</LargeText>
+                    <LargeText>35+</LargeText>
                     <SmallText>Delivery Per Day</SmallText>
                  </Box>
             </TextFlexbox>

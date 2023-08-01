@@ -28,10 +28,10 @@ const Dishes=() =>{
       <Container>
         <PropertiesTextBox>
               <Typography sx={{ color:"#000339", fontSize: "35px", fontWeight:"bold", ml:"13px"}}>
-                Featured Dishes
+                Featured Spices
               </Typography>
               <Typography sx={{color:"#5A6473", fontSize:"16px", mt:1, ml:"13px"}}>
-                Explore Variety of South Indian Dishes!!!
+                Explore Variety of South Indian Spices!!!
               </Typography>
         </PropertiesTextBox>
 

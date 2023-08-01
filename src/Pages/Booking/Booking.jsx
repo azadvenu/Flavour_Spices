@@ -65,7 +65,7 @@ const Booking=()=>{
           variant='h3'
           sx={{fontSize: "35px", fontWeight: "bold", color: "#000339", my:3 }}
         >
-            How to Book?
+            How to Order?
         </Typography>
         <CustomBox>
             <Typography
@@ -76,7 +76,7 @@ const Booking=()=>{
                 color:"#5A6473",
                 textAlign:"center"
             }}>
-            Everything you need to know when you book for advances lot
+            Everything you need to know when you order for advances.
             </Typography>
         </CustomBox>
 

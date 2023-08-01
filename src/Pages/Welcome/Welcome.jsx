@@ -2,7 +2,7 @@ import {Box,Button,Typography} from "@mui/material";
 import {styled} from '@mui/system';
 import {Container} from "@mui/system";
 import CustomButton from "../../Components/CustomButton/CustomButton";
-import welcome from '../../assets/welcome.png';
+import welcome from '../../assets/spicy-fotor-bg-remover-20230729102142 (1).png';
 import React from 'react'
 
 const Welcome = () =>{
@@ -44,15 +44,15 @@ const Welcome = () =>{
                         mb:4,
                       }}
                      >
-                        Welcome to Techflix Restorent
+                        Welcome to Flavour Spices
                      </Typography>
                      <Title variant="h1">
-                        Discover a place where you'll love to Eat.
+                     Find every fresh spices you need for a well stocked kitchen.
                      </Title>
                      <Typography variant="body2"
                       sx={{fontSize:"18px", color:"#5A6473", my:4}}
                      >
-                        Immerse yourself in the elegant ambiance as you savour each bite, accompanied by our extensive selection of hand-picked wines and carefully curated cocktails.
+                       Our natural and organic range of spices, spice mixes and aromatic herbs are just perfect for regular home cooking and for professional cooks. Our spices will enhance, enliven and completely rejuvenate your cooking with its freshness and goodness.
                      </Typography>
                      <CustomButton
                      backgroundColor="#0F1B4C"

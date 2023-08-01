@@ -2,8 +2,8 @@ import { Box,Typography } from '@mui/material'
 import {styled} from '@mui/system'
 import React, { useState } from 'react'
 import CustomButton from '../CustomButton/CustomButton'
-import logoImg from '../../assets/logo.png'
-
+import logoImg from '../../assets/FLAVOUR (6) (1).png'
+import { Link } from 'react-router-dom';
 import  MenuIcon from "@mui/icons-material/Menu";
 import FeaturedPlayListIcon from "@mui/icons-material/FeaturedPlayList";
 import  MiscellaneousServicesIcon  from '@mui/icons-material/MiscellaneousServices';
@@ -24,7 +24,7 @@ function Header() {
 
     const nav_titles = [
         {path:'/', display:'Home'},
-        {path:'/dishes', display:'Dishes'},
+        {path:'/dishes', display:'Spices'},
         {path:'/services', display:'Services'},
         {path:'/aboutus', display:'About Us'} 
     ]
@@ -46,9 +46,11 @@ function Header() {
         fontSize:"16px",
         color:'#4F5361',
         fontWeight :'bold',
+       
         cursor:'pointer',
         '&:hover':{
-         color:'#fff'
+         color:'#fff',
+         textDecoration:'none'
         }
     }));
 
@@ -178,17 +180,19 @@ const list = (anchor)=>(
             display:'flex',
             alignItems: 'center',
             justifyContent:'center',
-            gap:'1rem'
+            gap:'1rem',
         }}>
-              <NavBarLinks variant='body2'>
-               Sign Up
+              <NavBarLinks variant='body2'> <Link style={{textDecoration:'none'}} to='./Signin'> Sign In</Link>
+              
               </NavBarLinks>
+              <Link style={{textDecoration:'none'}} to='./Register'>
               <CustomButton
               backgroundColor='#0F184C'
               color='#fff'
               buttonText="Register"
               />
-
+             </Link>
+              
         </Box>
     </Box>
   )

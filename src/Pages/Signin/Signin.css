@@ -1,0 +1,50 @@
+.signin-container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+}
+
+.signin-container h1{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* .signin-container p{
+    font-size: 18px;
+    margin-bottom: 40px;
+} */
+
+.signin-form .form-group{
+ margin-bottom: 20px;
+ text-align: left;
+}
+
+.signin-form label{
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.signin-form input,
+.signin-form textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-btn{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-btn:hover{
+    background-color: #45a049;
+}

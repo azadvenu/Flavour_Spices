@@ -41,7 +41,7 @@ const CustomCard=({img,price,item,likes,heart,share}) =>{
 
         <Box sx={{padding:"1rem"}}>
             <Typography variant="body2" sx={{fontWeight:"700"}}>
-                ${price}
+                {price}
             </Typography>
             <Typography variant="body2" sx={{my:2}}>
                 {item}

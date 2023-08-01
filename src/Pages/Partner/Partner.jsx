@@ -1,7 +1,7 @@
 import React from 'react';
 import {Box, Container, Typography} from "@mui/material";
 import {styled} from "@mui/system";
-import logoImg from "../../assets/logo.png";
+import logoImg from "../../assets/Your paragraph text (2) (1).png";
 import starsImg from "../../assets/Star.png";
 import logosImg from "../../assets/logos.png"
 
@@ -39,7 +39,7 @@ const Partner=()=>{
           mt:2,
         }}
         >
-          More than 45,000 trust Techflix
+          More than 450 trust Flavour Spices
         </Typography>
      </CustomBox>
 

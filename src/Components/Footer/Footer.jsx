@@ -60,7 +60,7 @@ const FooterLink = styled("span")(({theme})=>({
           <br />
           <FooterLink>Services</FooterLink>
           <br />
-          <FooterLink>Contact Us</FooterLink>
+          <FooterLink >Contact Us</FooterLink>
        </Box>
 
        <Box>
